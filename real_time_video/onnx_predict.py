@@ -40,6 +40,7 @@ def transform(img):
 
 
 def onnx_predict(img):
+    img = Image.fromarray(img)
     img = face_roi.get_face(img)
     img = transform(img)
     outputs = ort_session.run(None, {"input": img.reshape(1, 1, 48, 48)})
