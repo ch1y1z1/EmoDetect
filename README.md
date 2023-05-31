@@ -2,7 +2,7 @@
 
 This software recognizes human faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV and Deep Learning.
 
-![Demo](real_time_video/video.mp4)
+![Demo](real_time_video/iShot_2023-05-31_20.31.10.gif)
 
 
 ## Installation
