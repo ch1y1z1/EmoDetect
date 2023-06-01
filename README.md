@@ -55,7 +55,7 @@ To train.
 
 ## Thanks
 
-* our teachers Liu and Kong
+* our teachers Kong and Liu
 * eastern 26 building
 * kunkun
 * Zhen Ding
