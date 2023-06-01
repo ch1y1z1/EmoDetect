@@ -2,15 +2,19 @@
 
 This software recognizes human faces and their corresponding emotions from a video or webcam feed. Powered by OpenCV and Deep Learning.
 
-![Demo](real_time_video/iShot_2023-05-31_20.31.10.gif)
+#### real time video detect
+![Demo](readme_pics/iShot_2023-05-31_20.31.10.gif)
 
+#### using via website or api
+
+![Demo](readme_pics/2023-06-01-16-19-18.png)
 
 ## Installation
 
 ### Direct
 
 Clone the repository:
-```
+```bash
 git clone https://github.com/ch1y1z1/EmoDetect
 cd EmoDetect/
 ```
@@ -23,6 +27,13 @@ Once the dependencies are installed, you can run the project.
 ```python main.py```
 
 ### run with docker
+
+```bash
+docker build -t emo_detect .
+docker run -d -p 8000:7860 emo_detect
+```
+
+visit `http://[your host]:8000` to have a try
 
 
 ## To train your own model for emotion classification
